@@ -148,6 +148,6 @@ alias pdf2images='/Users/martinjohannesnilsen/Computer/Programming/cli/pdf2image
 source "$HOME/.cargo/env"
 
 # Zoxide (improved cd) with fuzzy finding (cdi)
-export PATH="/Users/martinjohannesnilsen/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init --cmd cd zsh)" 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
