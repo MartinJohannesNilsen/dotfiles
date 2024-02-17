@@ -131,4 +131,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-
+# Zoxide (improved cd) with fuzzy finding (cdi)
+export PATH="$HOME/.local/bin:$PATH"
+eval "$(zoxide init --cmd cd zsh)" 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
