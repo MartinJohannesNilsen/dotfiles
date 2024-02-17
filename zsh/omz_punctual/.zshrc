@@ -143,3 +143,11 @@ alias venvreqs="pip freeze > requirements.txt"
 alias unigrade='/Users/martinjohannesnilsen/Computer/Programming/cli/unigrade/unigrade'
 alias setuplatex='/Users/martinjohannesnilsen/Computer/Programming/cli/setuplatex/setuplatex'
 alias pdf2images='/Users/martinjohannesnilsen/Computer/Programming/cli/pdf2images/pdf_converter.sh'
+
+# Rust
+source "$HOME/.cargo/env"
+
+# Zoxide (improved cd) with fuzzy finding (cdi)
+export PATH="/Users/martinjohannesnilsen/.local/bin:$PATH"
+eval "$(zoxide init --cmd cd zsh)" 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
